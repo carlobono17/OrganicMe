@@ -1,0 +1,34 @@
+@use "../custom" as*;
+
+
+    .bcrumbs{
+      
+        padding-top: .5rem;
+
+
+        li{
+            padding-left: 2.5rem;
+
+            font-family: eds-market-regular, sans-serif;
+            
+            font-style: italic;
+            font-size: 0.5rem;
+
+            a{
+                color: $secondary-red;
+                text-decoration: underline;
+            }
+           
+           
+
+         }
+         
+@include media-breakpoint-up(sm){
+    li{
+    
+    padding-left: 4rem;
+    font-size: .875rem;
+}
+
+}
+    }

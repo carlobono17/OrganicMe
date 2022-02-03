@@ -1,0 +1,13 @@
+@use "../custom" as*;
+
+
+.socialFeed{
+    iframe{
+        width:30rem;
+        height: 20rem; 
+    }
+    a{
+        width:10rem;
+        height: 30rem; 
+    }
+}

@@ -1,0 +1,135 @@
+@use '../custom' as*;
+@use '../components/typography' as*;
+@use '../components/mixings' as*;
+
+.part2{
+    margin-top: 5rem;
+
+    .row{
+        margin-right: 0;
+        @include media-breakpoint-up(md){
+            margin-right: .5rem;
+        }
+    }
+
+    img{
+        margin-top: 1rem;
+        width: 10rem;
+        height: 8rem;
+        @include media-breakpoint-down(lg){
+            display: none;
+        }
+    }
+    p{
+
+        padding-bottom: 1rem;
+        a{
+            position: absolute;
+            align-self: end;
+            white-space: nowrap;
+            text-transform: capitalize;
+            opacity: .8;
+            &:hover{
+
+                text-decoration: underline;
+                opacity: 1;
+            }
+        }
+    }
+
+}
+.part2Cafe{
+    margin-top: 5rem;
+
+   
+    &--logo{
+        img{
+        margin: 1rem 0;
+        width: 10rem;
+        height: 8rem;
+        @include media-breakpoint-down(lg){
+            display: none;
+        }
+    }
+    }
+    p{
+
+        padding-bottom: 1rem;
+        
+    }
+    a{
+            
+        
+        white-space: nowrap;
+        text-transform: capitalize;
+        opacity: .8;
+        &:hover{
+
+            text-decoration: underline;
+            opacity: 1;
+        }
+    }
+    .imgCafe{
+
+        img{
+
+            margin: auto 0;
+            width: 100%;
+            height: auto;
+        }
+    }
+ 
+
+}
+.part2Course{
+    margin-top: 5rem;
+
+
+    h2{
+        text-transform: none;
+    }
+
+   
+ 
+ 
+    p{
+
+        padding-bottom: 1rem;
+        
+    }
+    a{
+            
+        
+        white-space: nowrap;
+        text-transform: capitalize;
+        opacity: .8;
+        &:hover{
+
+            text-decoration: underline;
+            opacity: 1;
+        }
+    }
+    .imgCourse{
+
+        img{
+
+            margin: auto 0;
+            width: 100%;
+            height: auto;
+        }
+    }
+ 
+
+}
+.part2About{
+.imgAbout{
+
+    img{
+
+        margin: auto 0;
+        width: 100%;
+        max-width: 30rem;
+        height: auto;
+    }
+}
+}

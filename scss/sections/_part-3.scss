@@ -1,0 +1,167 @@
+@use '../custom' as*;
+@use '../components/typography' as*;
+@use '../components/mixings' as*;
+
+.part3{
+    margin-top: 5rem;
+
+    img{
+        margin-top: 1rem;
+        width: 10rem;
+        height: 8rem;
+    }
+    p{
+
+        padding-bottom: 1rem;
+        a{
+
+            font-size: .875rem;
+            position: absolute;
+            justify-content: end;
+            white-space: nowrap;
+            text-transform: capitalize;
+            opacity: .8;
+
+             &:hover{
+
+                text-decoration: underline;
+                opacity: 1;
+            }
+
+        }
+    }
+
+
+
+    .videoEmbed{
+
+        iframe{
+            width: 20rem;
+            height: 15rem;
+            display: block;
+            margin: 4rem auto;
+
+
+
+                @include media-breakpoint-up(sm){
+                    margin:  0 auto;
+                width: 22rem;
+                height: 18rem;
+                }
+
+                @include media-breakpoint-up(lg){
+
+                    width: 100%;
+                    margin-top: 2rem;
+
+                }
+
+        }
+    }
+}
+.part3Cafe{
+    margin-top: 5rem;
+    p{
+        a{
+
+            font-size: 1rem;
+
+            font-weight: 600;
+            white-space: nowrap;
+            text-transform: capitalize;
+            opacity: .8;
+
+             &:hover{
+
+                text-decoration: underline;
+                opacity: 1;
+            }
+            @include media-breakpoint-up (sm){
+                font-size: 1.2rem;
+            }
+        }
+    }
+}
+.part3Shop{
+    margin-top: 5rem;
+
+    p{
+
+
+        a{
+
+            font-size: 1rem;
+
+            font-weight: 600;
+            white-space: nowrap;
+            text-transform: capitalize;
+            opacity: .8;
+
+             &:hover{
+
+                text-decoration: underline;
+                opacity: 1;
+            }
+            @include media-breakpoint-up (sm){
+                font-size: 1.2rem;
+            }
+        }
+    }
+
+
+}
+
+
+.imgCafe{
+
+    img{
+            width: 20rem;
+            height: auto;
+
+             display: block;
+             margin:  0 auto;
+            @include media-breakpoint-up(sm){
+                margin-top: .875rem;
+                width: 100%;
+            }
+
+
+
+    }
+}
+.imgShop{
+
+    img{
+            width: 20rem;
+            height: auto;
+
+             display: block;
+             margin:  0 auto;
+            @include media-breakpoint-up(sm){
+                margin-top: .875rem;
+                width: 100%;
+            }
+
+
+
+    }
+}
+
+.part3Course{
+    h3{
+        text-transform: none;
+    }
+}
+
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color:$primary-red !important;
+        opacity: 1; /* Firefox */
+      }
+
+      :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: $primary-red;
+      }
+
+      ::-ms-input-placeholder { /* Microsoft Edge */
+        color: $primary-red;
+      }

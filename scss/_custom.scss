@@ -1,0 +1,95 @@
+// my theme colours
+// background colours
+
+$background-cornsilk: #fcf4dd !default;
+$background-yellow: #f8ab1d!default;
+
+//footer colour
+
+$footer-grey: #707070!default;
+
+// main colours
+$secondary-red:     #e8452f !default;
+$primary-red: #a74530 !default ;
+$info:          #a74530 !default;
+$success:       $background-cornsilk !default;
+
+
+
+
+//  whites and greys
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
+$primary:       $background-yellow;
+$secondary:     $secondary-red;
+
+
+$body-bg:                  $background-cornsilk ;
+
+
+// links
+$navbar-dark-color:                 $primary-red ;
+$navbar-dark-hover-color:           $primary-red ;
+$navbar-dark-active-color:          $primary-red ;
+
+// breadcrumbs
+
+
+$breadcrumb-active-color:           $primary-red;
+
+//carousel
+$carousel-control-color:             $secondary-red;
+$carousel-control-width:             20%;
+$carousel-control-opacity:           1;
+$carousel-control-hover-opacity:     1;
+$carousel-control-transition:        opacity .15s ease;
+
+$carousel-indicator-width:           30px;
+$carousel-indicator-height:          3px;
+$carousel-indicator-hit-area-height: 10px;
+$carousel-indicator-spacer:          3px;
+$carousel-indicator-opacity:         .5;
+$carousel-indicator-active-bg:       $white;
+$carousel-indicator-active-opacity:  1;
+$carousel-indicator-transition:      opacity .6s ease;
+
+$carousel-caption-width:             70%;
+$carousel-caption-color:             $white;
+$carousel-caption-padding-y:         1.25rem;
+$carousel-caption-spacer:            1.25rem;
+
+$carousel-control-icon-width:        2rem;
+
+$carousel-transition-duration:       .10s;
+$carousel-transition:                transform $carousel-transition-duration ease-in-out; // Define transform transition first if using multiple transitions (e.g., `transform 2s ease, opacity .5s ease-out`)
+
+$carousel-dark-indicator-active-bg:  $black;
+$carousel-dark-caption-color:        $black;
+$carousel-dark-control-icon-filter:  invert(1) grayscale(100);
+                                    
+$carousel-control-prev-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$carousel-control-color}'><path d='M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z'/></svg>");
+$carousel-control-next-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$carousel-control-color}'><path d='M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z'/></svg>");
+
+
+
+$card-bg:                           $background-cornsilk;
+
+$link-color:                              $primary-red;
+$link-decoration:                         none;
+$link-shade-percentage:                   20%;
+$link-hover-color:                        shift-color($link-color, $link-shade-percentage);
+
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+

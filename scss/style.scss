@@ -1,0 +1,19 @@
+@use 'custom' ;
+
+
+
+// import components
+
+ @use 'components/mixings';
+ @use 'components/typography';
+
+//  import sections
+
+@use 'sections/navbar';
+@use 'sections/breadcrumbs';
+@use 'sections/photo-gallery';
+@use 'sections/intro';
+@use 'sections/part-2';
+@use 'sections/part-3';
+@use 'sections/footer';
+@use 'sections/socialfeed';
