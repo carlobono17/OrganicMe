@@ -161,23 +161,31 @@
                 }
             }
             address{
-                    font-family: eds-market-regular, sans-serif;
-                    // font-weight: 100;
-                    font-style: normal;
-                        @include media-breakpoint-up(sm){
-                            font-size: 1rem;
-                       
-                        }
+                a{
                     font-size: 1.5rem;
                     color: $primary-red;
                     text-decoration: none;    
+        
                         &:hover{
                         text-decoration: underline;
                         }
+                    // font-family: eds-market-regular, sans-serif;
+                    // // font-weight: 100;
+                    // font-style: normal;
+                    //     @include media-breakpoint-up(sm){
+                    //         font-size: 1rem;
+                       
+                    //     }
+                    // font-size: 1.5rem;
+                    // color: $primary-red;
+                    // text-decoration: none;    
+                    //     &:hover{
+                    //     text-decoration: underline;
+                    //     }
                 }
 
         
-        }
+            }
 
         &--subtitle{
         
