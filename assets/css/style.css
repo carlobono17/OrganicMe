@@ -11666,10 +11666,11 @@ textarea.form-control-lg {
 }
 .footer .contact-box__info--subtitle {
   text-transform: capitalize;
-  color: #fcf4dd;
+  color: #f8ab1d;
   text-decoration: none;
   font-weight: 600;
   font-size: 1rem;
+  margin-top: -0.5rem;
 }
 .footer .footer-sm a {
   width: 2rem;
