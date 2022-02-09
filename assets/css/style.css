@@ -11686,6 +11686,7 @@ textarea.form-control-lg {
 .footer .footer-sm a {
   width: 2rem;
   stroke: #fcf4dd;
+  text-decoration: none;
 }
 @media (min-width: 768px) {
   .footer .footer-sm a {
