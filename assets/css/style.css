@@ -11172,6 +11172,7 @@ textarea.form-control-lg {
 }
 .type address {
   font-family: eds-market-regular, sans-serif;
+  font-weight: 100;
   font-style: normal;
   color: #a74530;
   font-size: 0.875rem;
@@ -11183,7 +11184,6 @@ textarea.form-control-lg {
 }
 .type .addresscont-us {
   font-family: eds-market-regular, sans-serif;
-  font-weight: 100;
   font-style: normal;
   color: #a74530;
   font-size: 0.875rem;
