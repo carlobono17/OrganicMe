@@ -24,7 +24,7 @@
 
         &__icon{
             width: 2rem;
-            stroke: black;
+            stroke: $background-cornsilk;
 
             @include media-breakpoint-up(md){
                 width: 3rem;
@@ -46,7 +46,7 @@
                 }
             &--title{
                 
-                color: black;
+                color: $background-cornsilk;
                 text-decoration: none;    
 
                     &:hover{
@@ -72,7 +72,7 @@
         a{
             
             width: 2rem;
-            stroke: black;
+            stroke: $background-cornsilk;
             
             @include media-breakpoint-up(md){
                 width: 3rem;
@@ -93,7 +93,7 @@
             margin-bottom: 2rem;
 
             a{
-                color: $black;
+                color:  $background-cornsilk;
                 
                 &:hover{
                     text-decoration: underline;

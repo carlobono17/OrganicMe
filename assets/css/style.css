@@ -11618,7 +11618,7 @@ textarea.form-control-lg {
 
 .footer {
   font-weight: 200;
-  background-color: #6c757d;
+  background-color: #707070;
 }
 .footer a {
   color: #000;
@@ -11631,7 +11631,7 @@ textarea.form-control-lg {
 }
 .footer .contact-box__icon {
   width: 2rem;
-  stroke: black;
+  stroke: #fcf4dd;
 }
 @media (min-width: 768px) {
   .footer .contact-box__icon {
@@ -11658,7 +11658,7 @@ textarea.form-control-lg {
   }
 }
 .footer .contact-box__info--title {
-  color: black;
+  color: #fcf4dd;
   text-decoration: none;
 }
 .footer .contact-box__info--title:hover {
@@ -11673,7 +11673,7 @@ textarea.form-control-lg {
 }
 .footer .footer-sm a {
   width: 2rem;
-  stroke: black;
+  stroke: #fcf4dd;
 }
 @media (min-width: 768px) {
   .footer .footer-sm a {
@@ -11691,7 +11691,7 @@ textarea.form-control-lg {
   margin-bottom: 2rem;
 }
 .footer .footer-bottom__copyright a {
-  color: #000;
+  color: #fcf4dd;
 }
 .footer .footer-bottom__copyright a:hover {
   text-decoration: underline;
