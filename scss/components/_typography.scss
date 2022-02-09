@@ -65,17 +65,17 @@
       }
   }
 
-  address{
-    font-family: eds-market-regular, sans-serif;
-    // font-weight: 100;
-    font-style: normal;
-    color: $primary-red;
-    font-size: .875rem;
-    @include media-breakpoint-up(sm){
-        font-size: 1rem;
+  // address{
+  //   font-family: eds-market-regular, sans-serif;
+  //   // font-weight: 100;
+  //   font-style: normal;
+  //   color: $primary-red;
+  //   font-size: .875rem;
+  //   @include media-breakpoint-up(sm){
+  //       font-size: 1rem;
        
-      }
-  }
+  //     }
+  // }
   
   p{
     font-family: farm-new,sans-serif;

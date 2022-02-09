@@ -11170,17 +11170,6 @@ textarea.form-control-lg {
     font-size: 1rem;
   }
 }
-.type address {
-  font-family: eds-market-regular, sans-serif;
-  font-style: normal;
-  color: #a74530;
-  font-size: 0.875rem;
-}
-@media (min-width: 576px) {
-  .type address {
-    font-size: 1rem;
-  }
-}
 .type p {
   font-family: farm-new, sans-serif;
   font-weight: 600;
