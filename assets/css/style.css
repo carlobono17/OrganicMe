@@ -11182,17 +11182,6 @@ textarea.form-control-lg {
     font-size: 1rem;
   }
 }
-.type .addresscont-us {
-  font-family: eds-market-regular, sans-serif;
-  font-style: normal;
-  color: #a74530;
-  font-size: 0.875rem;
-}
-@media (min-width: 576px) {
-  .type .addresscont-us {
-    font-size: 1rem;
-  }
-}
 .type p {
   font-family: farm-new, sans-serif;
   font-weight: 600;
@@ -11779,9 +11768,17 @@ textarea.form-control-lg {
   text-decoration: underline;
 }
 .contact-box2__info--title address {
+  font-family: eds-market-regular, sans-serif;
+  font-weight: 100;
+  font-style: normal;
   font-size: 1.5rem;
   color: #a74530;
   text-decoration: none;
+}
+@media (min-width: 576px) {
+  .contact-box2__info--title address {
+    font-size: 1rem;
+  }
 }
 .contact-box2__info--title address:hover {
   text-decoration: underline;
