@@ -11621,7 +11621,7 @@ textarea.form-control-lg {
   background-color: #707070;
 }
 .footer a {
-  color: #000;
+  color: #f8ab1d;
 }
 .footer a:hover {
   text-decoration: underline;
@@ -11687,12 +11687,13 @@ textarea.form-control-lg {
   }
 }
 .footer .footer-bottom__copyright {
+  color: #fcf4dd;
   font-weight: 400;
   font-size: 0.7rem;
   margin-bottom: 2rem;
 }
 .footer .footer-bottom__copyright a {
-  color: #fcf4dd;
+  color: #f8ab1d;
 }
 .footer .footer-bottom__copyright a:hover {
   text-decoration: underline;

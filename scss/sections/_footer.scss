@@ -8,7 +8,7 @@
     font-weight: 200;
     background-color: $footer-grey;
     a{
-        color: $black;
+        color: $background-yellow;
 
         &:hover{
             text-decoration: underline;
@@ -89,12 +89,13 @@
     .footer-bottom{
        
         &__copyright{
+            color: $background-cornsilk;
             font-weight: 400;
             font-size: .7rem;
             margin-bottom: 2rem;
 
             a{
-                color:  $background-cornsilk;
+                color:  $background-yellow;
                 
                 &:hover{
                     text-decoration: underline;
