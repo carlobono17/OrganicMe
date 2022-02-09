@@ -11658,7 +11658,7 @@ textarea.form-control-lg {
   }
 }
 .footer .contact-box__info--title a {
-  color: #f8ab1d;
+  color: #fcf4dd;
   text-decoration: none;
 }
 .footer .contact-box__info--title a:hover {
@@ -11666,7 +11666,7 @@ textarea.form-control-lg {
 }
 .footer .contact-box__info--subtitle {
   text-transform: capitalize;
-  color: #f8ab1d;
+  color: #fcf4dd;
   text-decoration: none;
   font-weight: 600;
   font-size: 1rem;
@@ -11693,7 +11693,7 @@ textarea.form-control-lg {
   margin-bottom: 2rem;
 }
 .footer .footer-bottom__copyright a {
-  color: #f8ab1d;
+  color: #fcf4dd;
 }
 .footer .footer-bottom__copyright a:hover {
   text-decoration: underline;
