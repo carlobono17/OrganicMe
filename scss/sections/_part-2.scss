@@ -47,7 +47,7 @@
         margin: 1rem 0;
         width: 10rem;
         height: 8rem;
-        @include media-breakpoint-down(lg){
+        @include media-breakpoint-down(md){
             display: none;
         }
     }
