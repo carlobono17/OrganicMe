@@ -151,14 +151,24 @@
             padding-top: .8rem;
             }
         &--title{
+            a{
             font-size: 1.5rem;
-            color: black;
+            color: $primary-red;
             text-decoration: none;    
 
                 &:hover{
                 text-decoration: underline;
                 }
-        
+            }
+            address{
+                font-size: 1.5rem;
+                color: $primary-red;
+                text-decoration: none;    
+    
+                    &:hover{
+                    text-decoration: underline;
+                    }
+                }
 
         
         }

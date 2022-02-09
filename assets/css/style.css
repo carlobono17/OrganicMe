@@ -11759,12 +11759,20 @@ textarea.form-control-lg {
     padding-top: 0.8rem;
   }
 }
-.contact-box2__info--title {
+.contact-box2__info--title a {
   font-size: 1.5rem;
-  color: black;
+  color: #a74530;
   text-decoration: none;
 }
-.contact-box2__info--title:hover {
+.contact-box2__info--title a:hover {
+  text-decoration: underline;
+}
+.contact-box2__info--title address {
+  font-size: 1.5rem;
+  color: #a74530;
+  text-decoration: none;
+}
+.contact-box2__info--title address:hover {
   text-decoration: underline;
 }
 .contact-box2__info--subtitle {
