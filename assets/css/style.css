@@ -11182,6 +11182,18 @@ textarea.form-control-lg {
     font-size: 1rem;
   }
 }
+.type .addresscont-us {
+  font-family: eds-market-regular, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  color: #a74530;
+  font-size: 0.875rem;
+}
+@media (min-width: 576px) {
+  .type .addresscont-us {
+    font-size: 1rem;
+  }
+}
 .type p {
   font-family: farm-new, sans-serif;
   font-weight: 600;
